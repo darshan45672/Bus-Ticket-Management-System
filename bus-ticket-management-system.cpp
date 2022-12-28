@@ -1,4 +1,4 @@
-#include <conio.h>
+#include <windows.h>
 
 #include <cstdio>
 
@@ -49,6 +49,7 @@ void vline(char ch)
 void a::install()
 
 {
+    cout<< "Programmed by Darshan Bhandary";
 
   cout<<"Enter bus no: ";
 
@@ -87,6 +88,7 @@ void a::allotment()
   int seat;
 
   char number[5];
+  cout<< "Programmed by Darshan Bhandary";
 
   top:
 
@@ -162,6 +164,7 @@ void a::allotment()
 void a::empty()
 
 {
+    cout<< "Programmed by Darshan Bhandary";
 
   for(int i=0; i<8;i++)
 
@@ -182,6 +185,7 @@ void a::empty()
 void a::show()
 
 {
+    cout<< "Programmed by Darshan Bhandary";
 
   int n;
 
@@ -254,6 +258,7 @@ while(n<=p)
 void a::position(int l)
 
 {
+    cout<< "Programmed by Darshan Bhandary";
 
   int s=0;p=0;
 
@@ -318,7 +323,7 @@ void a::position(int l)
 void a::avail()
 
 {
-
+   cout<< "Programmed by Darshan Bhandary";
 
   for(int n=0;n<p;n++)
 
@@ -349,12 +354,13 @@ int main()
 system("cls");
 
 int w;
+cout<< "Programmed by Darshan Bhandary";
 
 while(1)
 
 {
 
-    //system("cls");
+    system("cls");
 
   cout<<"\n\n\n\n\n";
 

@@ -1,36 +1,24 @@
 #include <windows.h>
-
 #include <cstdio>
-
 #include <iostream>
-
 #include <string.h>
-
 #include <cstdlib>
 
-using namespace std;
+using namespace std;  
 
-static int p = 0;
+static int p = 0;  // declaring a static variable
 
-class a
+class a {
+   char busn[5], driver[10], arrival[5], depart[5], from[10], to[10], seat[8][4][10];  // declaring the attributes
 
-{
-
-  char busn[5], driver[10], arrival[5], depart[5], from[10], to[10], seat[8][4][10];
-
-public:
-
-  void install();
-
-  void allotment();
-
-  void empty();
-
-  void show();
-
-  void avail();
-
-  void position(int i);
+   /* Declaring the methods for the class */
+   public:
+    void install();
+    void allotment();
+    void empty();
+    void show();
+    void avail();
+    void position(int i);
 
 }
 
